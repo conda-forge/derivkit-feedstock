@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.10"
-  version: "1.1.0"
+  version: "1.2.1"
 
 package:
   name: derivkit
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/derivkit/derivkit-${{ version }}.tar.gz
-  sha256: 0dfd2d7449baf5a2dbf3caa92fb2820917cd79caf8caf08d197ea1bdaf42cd97
+  sha256: caed3df852d206263d944134f6a2a88c28762e09b022de0187a58c8a207dbedc
 
 build:
   number: 0
