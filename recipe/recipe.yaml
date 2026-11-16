@@ -12,7 +12,7 @@ source:
   sha256: ef693435942e4c921fc9abb0781f40606b47d07c37cf0d8a3bd55d227107d1d7
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -24,7 +24,6 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - numdifftools
     - numpy
     - multiprocess
     - scipy
