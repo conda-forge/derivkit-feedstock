@@ -27,7 +27,6 @@ requirements:
     - numpy
     - multiprocess
     - scipy
-    - tox
     - getdist
     - emcee
 
