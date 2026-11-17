@@ -24,7 +24,6 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - numdifftools
     - numpy
     - multiprocess
     - scipy
