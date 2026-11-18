@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.5.0"
+  version: "1.5.1"
 
 package:
   name: derivkit
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/derivkit/derivkit-${{ version }}.tar.gz
-  sha256: ef693435942e4c921fc9abb0781f40606b47d07c37cf0d8a3bd55d227107d1d7
+  sha256: 5f5f61ed0145c554ba4ee7ea6ff26a0a61e4061fe4c45164015ab8257a7dd3b3
 
 build:
   number: 0
@@ -24,11 +24,9 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - numdifftools
     - numpy
     - multiprocess
     - scipy
-    - tox
     - getdist
     - emcee
 
